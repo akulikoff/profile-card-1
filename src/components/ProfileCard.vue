@@ -27,12 +27,15 @@ defineProps<CardProps>();
           {{ summary }}
         </p>
         <button
-          class="bg-indigo-700 w-full my-4 leading-10 rounded-md text-xl text-white font-medium outline-4 outline-white focus:outline-4 focus:outline-indigo-700"
+          class="bg-indigo-700 w-full my-4 leading-10 rounded-sm text-base text-white font-medium outline-4 outline-white focus:outline-4 focus:outline-indigo-200"
         >
           Contact me
         </button>
         <div class="flex flex-row justify-center gap-8 my-4">
-          <a class="icon" href="https://github.com/saradole">
+          <a
+            class="size-5 indigo-700 focus:outline-2 focus:outline-indigo-200 hover:bg-gray-100 hover:bg-scale-150 hover:transition hover:duration-300"
+            href="https://github.com/saradole"
+          >
             <svg
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +47,10 @@ defineProps<CardProps>();
               ></path>
             </svg>
           </a>
-          <a class="icon" href="https://www.linkedin.com/in/saradole/">
+          <a
+            class="size-5 indigo-700 focus:outline-2 focus:outline-indigo-200 hover:bg-gray-100 hover:bg-scale-150 hover:transition hover:duration-300"
+            href="https://www.linkedin.com/in/saradole/"
+          >
             <svg
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +62,10 @@ defineProps<CardProps>();
               ></path>
             </svg>
           </a>
-          <a class="icon" href="https://www.instagram.com/saradole/">
+          <a
+            class="size-5 indigo-700 focus:outline-2 focus:outline-indigo-200 hover:bg-gray-100 hover:bg-scale-150 hover:transition hover:duration-300"
+            href="https://www.instagram.com/saradole/"
+          >
             <svg
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +77,10 @@ defineProps<CardProps>();
               ></path>
             </svg>
           </a>
-          <a class="icon" href="https://twitter.com/saradole">
+          <a
+            class="size-5 indigo-700 focus:outline-2 focus:outline-indigo-200 hover:bg-gray-100 hover:bg-scale-150 hover:transition hover:duration-300"
+            href="https://twitter.com/saradole"
+          >
             <svg
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
