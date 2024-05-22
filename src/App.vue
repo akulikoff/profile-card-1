@@ -5,7 +5,7 @@ const data = {
   position: "Front End Engineer @Microsoft",
   summary:
     "I turn coffee into bugs which are fixed by someone else. Certified Stack Overflow and ChatGPT developer.",
-  imageUrl: "src/assets/img/profile.png",
+  imageUrl: "public/profile.png",
   iconsLinks: [
     {
       iconName: "github",
